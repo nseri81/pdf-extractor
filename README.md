@@ -4,7 +4,18 @@ Prima implementazione solo front-end, realizzata con HTML, CSS e JavaScript.
 
 ## Avvio
 
-Aprire `index.html` in un browser moderno. Non servono installazioni, build o server.
+Il backend richiede Java 17 e Maven 3.9. Lo script usa la JDK OpenLogic
+in `%USERPROFILE%\openlogic-openjdk-17.0.9+9-windows-x64`, senza modificare
+le variabili di ambiente globali.
+
+```bat
+scripts\dev.cmd run
+scripts\dev.cmd test
+scripts\dev.cmd package
+```
+
+Per il caricamento effettivo, aprire l'applicazione tramite il server HTTP,
+non direttamente dal file `index.html`.
 
 ## Struttura
 

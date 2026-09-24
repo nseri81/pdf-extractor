@@ -75,6 +75,11 @@ button:active {
   background: #0b3c31;
 }
 
+button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
 button:focus-visible {
   outline: 3px solid #25836f;
   outline-offset: 5px;

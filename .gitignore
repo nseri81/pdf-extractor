@@ -3,3 +3,5 @@ Thumbs.db
 .vscode/
 node_modules/
 dist/
+backend/target/
+uploads/
